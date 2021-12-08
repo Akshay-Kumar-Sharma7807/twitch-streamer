@@ -1,0 +1,68 @@
+{
+  "short_name": "Dictionary",
+  "name": "Dictionary",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Word in Dictionary",
+      "short_name": "Search Words",
+      "description": "Search Word from the Dictionary",
+      "url": "/",
+      "icons": [{ "src": "/icons/play-later.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Open Settings",
+      "short_name": "Settings",
+      "description": "Change the Settings of Dictionary",
+      "url": "/settings",
+      "icons": [{ "src": "/icons/subscriptions.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Open About",
+      "short_name": "About us",
+      "description": "You can know About us in this page",
+      "url": "/about",
+      "icons": [{ "src": "/icons/subscriptions.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots" : [
+  {
+    "src": "screenshot1.webp",
+    "sizes": "1280x720",
+    "type": "image/webp"
+  },
+  {
+    "src": "screenshot2.webp",
+    "sizes": "1280x720",
+    "type": "image/webp"
+  }
+],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ff0000",
+  "background_color": "#ff0000",
+  "orientation": "portrait-primary",
+  "categories": ["books", "education", "productivity"]
+}
